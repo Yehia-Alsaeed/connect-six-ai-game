@@ -4,6 +4,20 @@ Connect Six AI Game is a Python notebook project that implements a playable Conn
 
 Connect6 is a strategy board game similar to Gomoku. Black places one stone on the first move, then players alternate by placing two stones per turn. The first player to connect six stones horizontally, vertically, or diagonally wins.
 
+## Screenshots
+
+### AI Victory State
+
+![AI victory state with winning stones highlighted](docs/assets/ai-win-state.png)
+
+### AI Hint Preview
+
+![AI hint preview showing the suggested move marker](docs/assets/ai-hint-state.png)
+
+### Player Victory State
+
+![Player victory state with advanced AI mode selected](docs/assets/player-win-state.png)
+
 ## Features
 
 - Full Connect6 rule handling, including the one-stone opening move and two-stone turns afterward.
@@ -36,6 +50,7 @@ The heuristic system includes:
 
 ```text
 connect-six-ai-game/
+  docs/assets/            UI screenshots used in the README
   ConnectSixGame.ipynb   Main notebook with game logic, AI, and Pygame UI
   requirements.txt       Python dependencies
   .gitignore             Local Python/Jupyter files to ignore
